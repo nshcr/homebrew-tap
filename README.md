@@ -13,7 +13,7 @@ brew install --cask dockautohide
 
 ## Current Casks
 
-- `dockautohide` - DockAutoHide, a macOS app that auto-hides the Dock only when a window would cover it.
+- `dockautohide` - [DockAutoHide](https://github.com/nshcr/DockAutoHide), a macOS app that auto-hides the Dock only when a window would cover it.
 
 ## Notes
 
