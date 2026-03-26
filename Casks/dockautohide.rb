@@ -1,6 +1,6 @@
 cask "dockautohide" do
-  version "0.2.1"
-  sha256 "7851dd98742143c8e217d60273d4d1bb115ab28da71e323f953df8a924d3961f"
+  version "0.2.2"
+  sha256 "d1897b11f36d60140b3314fcdea70e12bc32d82eb21f7f2256a59317ddc458d8"
 
   url "https://github.com/nshcr/DockAutoHide/releases/download/v#{version}/DockAutoHide-#{version}-universal.dmg"
   name "DockAutoHide"
