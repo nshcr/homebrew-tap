@@ -12,9 +12,11 @@ cask "dockautohide" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "DockAutoHide.app"
+
+  uninstall quit: "io.github.nshcr.DockAutoHide"
 
   zap trash: [
     "~/Library/Preferences/io.github.nshcr.DockAutoHide.plist",
